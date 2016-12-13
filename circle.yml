@@ -1,4 +1,6 @@
 test:
+  pre:
+    - echo $SECRET_VAR
   override:
     - g++ -o binary_search binary_search.cpp
 
