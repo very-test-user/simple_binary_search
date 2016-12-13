@@ -1,3 +1,4 @@
 test:
   override:
     - g++ -o binary_search binary_search.cpp
+
